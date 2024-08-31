@@ -2829,6 +2829,8 @@ h1 {
   .cell {
     justify-content: flex-end;
     align-items: flex-end;
+    padding-top: 18px;
+    padding-bottom: 10px;
     padding-right: 0;
   }
 
@@ -2845,7 +2847,7 @@ h1 {
 
   .text-block {
     text-align: right;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 0;
     margin-right: 0;
     font-size: 15px;
@@ -2899,6 +2901,7 @@ h1 {
     align-items: flex-start;
     padding-left: 30px;
     padding-right: 0;
+    list-style-type: square;
     display: block;
   }
 
