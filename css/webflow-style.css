@@ -2487,7 +2487,7 @@ h1 {
     max-width: 550px;
     margin-top: 10px;
     margin-right: 0;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25px;
   }
 
@@ -2661,13 +2661,13 @@ h1 {
   .cell {
     justify-content: flex-start;
     align-items: flex-end;
-    padding-top: 0;
+    padding-top: 20px;
     padding-right: 0;
   }
 
   .heading {
     text-align: right;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 0;
     font-size: 50px;
@@ -2680,7 +2680,7 @@ h1 {
     margin: 20px 30px;
     padding-bottom: 0;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 20px;
   }
 
   .body {
@@ -2699,7 +2699,7 @@ h1 {
   .text2 {
     max-width: 310px;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 20px;
   }
 
   .heading-2 {
@@ -2773,6 +2773,8 @@ h1 {
   .cell-14 {
     justify-content: center;
     align-items: flex-end;
+    font-size: 15px;
+    line-height: 19px;
   }
 
   .quick-stack-7 {
@@ -2826,17 +2828,21 @@ h1 {
 }
 
 @media screen and (max-width: 479px) {
+  .quick-stack {
+    margin-top: 0;
+  }
+
   .cell {
     justify-content: flex-end;
     align-items: flex-end;
-    padding-top: 18px;
+    padding-top: 20px;
     padding-bottom: 10px;
     padding-right: 0;
   }
 
   .heading {
     text-align: right;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 0;
     font-size: 50px;
@@ -2851,7 +2857,7 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 20px;
   }
 
   .navbar {
@@ -2893,6 +2899,7 @@ h1 {
   }
 
   .list-item {
+    line-height: 20px;
     display: block;
   }
 
