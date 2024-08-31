@@ -2506,8 +2506,9 @@ h1 {
   }
 
   .text2 {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
   }
 
   .heading-2 {
@@ -2525,8 +2526,9 @@ h1 {
   }
 
   .list-item {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
   }
 
   .list {
@@ -2705,7 +2707,7 @@ h1 {
   .heading-2 {
     margin-top: 0;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 25px;
   }
 
   .container-2 {
@@ -2722,7 +2724,8 @@ h1 {
   }
 
   .list-item {
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 18px;
   }
 
@@ -2872,6 +2875,8 @@ h1 {
 
   .text2 {
     text-align: left;
+    padding-left: 0;
+    font-weight: 400;
   }
 
   .heading-2 {
@@ -2906,7 +2911,7 @@ h1 {
   .list {
     flex-flow: column;
     align-items: flex-start;
-    padding-left: 30px;
+    padding-left: 15px;
     padding-right: 0;
     list-style-type: square;
     display: block;
@@ -3012,7 +3017,7 @@ h1 {
 
   .list-2 {
     flex-flow: column;
-    padding-left: 30px;
+    padding-left: 15px;
     padding-right: 0;
     display: block;
   }
