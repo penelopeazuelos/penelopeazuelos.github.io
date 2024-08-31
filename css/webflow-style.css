@@ -2299,7 +2299,7 @@ h1 {
 .container-4 {
   text-align: left;
   max-width: 940px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -2344,6 +2344,7 @@ h1 {
 }
 
 .quick-stack-6 {
+  align-self: stretch;
   padding: 0;
 }
 
@@ -2382,6 +2383,7 @@ h1 {
 }
 
 .container-9 {
+  margin-top: 20px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -2668,8 +2670,8 @@ h1 {
     margin-top: 0;
     margin-bottom: 10px;
     margin-right: 0;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 50px;
+    line-height: 55px;
   }
 
   .text-block {
@@ -2677,8 +2679,8 @@ h1 {
     max-width: 400px;
     margin: 20px 30px;
     padding-bottom: 0;
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 15px;
+    line-height: 18px;
   }
 
   .body {
@@ -2688,13 +2690,14 @@ h1 {
   }
 
   .heading2 {
-    margin-top: 0;
+    margin-top: 1px;
     margin-bottom: 0;
     font-size: 50px;
-    line-height: 50px;
+    line-height: 60px;
   }
 
   .text2 {
+    max-width: 310px;
     font-size: 15px;
     line-height: 18px;
   }
@@ -2706,7 +2709,7 @@ h1 {
   }
 
   .container-2 {
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .quick-stack-3 {
@@ -2719,12 +2722,12 @@ h1 {
   }
 
   .list-item {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 18px;
   }
 
   .container-4 {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .image-2 {
@@ -2738,6 +2741,11 @@ h1 {
     padding-right: 0;
   }
 
+  .quick-stack-6 {
+    flex: 1;
+    align-self: stretch;
+  }
+
   .container-5 {
     flex: 0 auto;
     align-self: flex-start;
@@ -2747,6 +2755,10 @@ h1 {
   .container-6 {
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  .container-9 {
+    margin-top: 20px;
   }
 
   .cell-11 {
@@ -2775,6 +2787,7 @@ h1 {
   }
 
   .cell-16 {
+    padding-top: 0;
     padding-left: 0;
     padding-right: 0;
   }
@@ -2805,6 +2818,11 @@ h1 {
   .image-4 {
     width: 200px;
   }
+
+  .container-12 {
+    height: 50px;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2815,12 +2833,12 @@ h1 {
   }
 
   .heading {
-    text-align: left;
+    text-align: right;
     margin-top: 0;
     margin-bottom: 10px;
     margin-right: 0;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 50px;
+    line-height: 55px;
     position: static;
     top: 60px;
   }
@@ -2830,8 +2848,8 @@ h1 {
     margin-top: 15px;
     margin-left: 0;
     margin-right: 0;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 18px;
   }
 
   .navbar {
